@@ -1,0 +1,77 @@
+@import url("nav-barCSS/nav-bar.css");
+@import url("nav-barCSS/logo.css");
+@import url("nav-barCSS/button.css");
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+
+
+body {
+  background: rgba(245, 222, 179, 0.409);
+  background-image: url(norway-sea-coast-sunrises-and-sunsets-63-1366x768.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top right center;
+  background-attachment: fixed;
+}
+
+.img {
+  text-align: center;
+  position: relative;
+  top: 100px;
+  margin: auto auto;
+
+  img {
+    width: 150px;
+    height: 150px;
+    border: solid dodgerblue 2px;
+    border-radius: 100%;
+  }
+
+  h1 {
+    font-size: 3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    color: aqua;
+    filter: drop-shadow(dodgerblue 0px 0px 10px);
+  }
+}
+
+ul {
+  display: block;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  justify-items: center;
+  margin: 160px auto auto;
+
+  li {
+    background-color: rgba(246, 245, 244, 0.653);
+    backdrop-filter: blur(10px);
+    width: 400px;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    border: solid none;
+    border-radius: 40px;
+    margin: 30px auto; 
+
+    a {
+      font-size: 1.4em;
+      font-family: "SUSE", sans-serif;
+      font-weight: 500;
+      align-items: center;
+      position: relative;
+      top: 20px;
+      color: black;
+      text-decoration: none;
+      text-shadow: deepskyblue 0px 0px 3px;
+    }
+  }
+}
